@@ -9,6 +9,8 @@ export ZSH=/home/eunjaejang/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # POWERLEVEL9K_MODE='awesome-fontconfig'
 ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
