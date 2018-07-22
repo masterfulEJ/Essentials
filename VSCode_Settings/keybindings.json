@@ -1,0 +1,14 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+{
+    "key": "ctrl+n",
+    "command": "workbench.action.toggleSidebarVisibility" 
+},
+{
+    "key": "ctrl+alt+l", "command": "workbench.action.moveEditorToNextGroup"
+},
+{
+    "key": "ctrl+alt+h",
+    "command": "workbench.action.moveEditorToPreviousGroup"
+},
+]

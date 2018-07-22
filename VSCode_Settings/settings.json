@@ -1,0 +1,52 @@
+{
+    "window.menuBarVisibility": "toggle",
+
+    "editor.fontFamily":
+    "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 14,
+    "editor.rulers": [80],
+
+    "window.zoomLevel": 1,
+
+    "git.enableSmartCommit": true,
+    "explorer.openEditors.visible": 0,
+    "explorer.confirmDelete": false,
+
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.statusBar.visible": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8FBCBB",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#8FBCBB",
+        "statusBar.foreground": "#434C5E"
+    },
+
+    "vim.useSystemClipboard": true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors": {
+        "normal": ["#8FBCBB", "#434C5E"],
+        "insert": "#BF616A",
+        "visual": "#B48EAD",
+        "visualline": "#B48EAD",
+        "visualblock": "#A3BE8C",
+        "replace": "#D08770"
+    },
+    "vim.ignorecase": false,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["q"],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-f>": false
+    }
+}
