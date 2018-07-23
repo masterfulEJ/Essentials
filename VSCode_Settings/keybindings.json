@@ -1,14 +1,45 @@
 // Place your key bindings in this file to overwrite the defaults
 [
 {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+},
+{
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+},
+{
     "key": "ctrl+n",
     "command": "workbench.action.toggleSidebarVisibility" 
 },
 {
-    "key": "ctrl+alt+l", "command": "workbench.action.moveEditorToNextGroup"
+    "key": "ctrl+alt+l",
+    "command": "workbench.action.moveEditorToNextGroup",
+    "when": "editorTextFocus && !editorReadonly"
 },
 {
     "key": "ctrl+alt+h",
-    "command": "workbench.action.moveEditorToPreviousGroup"
+    "command": "workbench.action.moveEditorToPreviousGroup",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+alt+l",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+},
+{
+    "key": "ctrl+alt+h",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+},
+{ 
+    "key": "ctrl+enter",
+    "command": "editor.action.insertLineAfter",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.toggleActivityBarVisibility"
 },
 ]
