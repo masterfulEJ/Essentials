@@ -42,4 +42,8 @@
     "key": "ctrl+alt+n",
     "command": "workbench.action.toggleActivityBarVisibility"
 },
+{
+    "key": "ctrl+e ctrl+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+},
 ]
