@@ -1,5 +1,9 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+{   "key": "ctrl+a",
+    "command": "editor.action.selectAll",
+    "when": "editorFocus"
+},
 {
     "key": "ctrl+t",
     "command": "workbench.action.terminal.toggleTerminal"

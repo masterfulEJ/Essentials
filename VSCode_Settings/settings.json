@@ -53,9 +53,13 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before":["q"],
-            "commands": [
-                ":nohl"
-            ]
+            "commands": [":nohl"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before":["enter"],
+            "after": ["o", ".", "<Esc>", "x"]
         }
     ],
     "vim.handleKeys": {
