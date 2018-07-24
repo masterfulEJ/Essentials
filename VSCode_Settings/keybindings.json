@@ -23,6 +23,14 @@
     "command": "workbench.action.moveEditorToPreviousGroup",
     "when": "editorTextFocus && !editorReadonly"
 },
+{   "key": "alt+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{   "key": "alt+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+},
 {
     "key": "ctrl+alt+l",
     "command": "workbench.action.terminal.focusNext",

@@ -1,19 +1,29 @@
 {
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
     "window.menuBarVisibility": "toggle",
 
     "editor.fontFamily":
     "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
     "editor.minimap.enabled": false,
     "editor.fontSize": 14,
+    "window.zoomLevel": 1,
     "editor.rulers": [80],
     "editor.codeLens": false,
     "editor.formatOnPaste": true,
-    "window.zoomLevel": 1,
+    "editor.parameterHints": true,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "boundary",
 
     "git.enableSmartCommit": true,
     "explorer.openEditors.visible": 0,
     "explorer.confirmDelete": false,
 
+    "[json]": {
+        "editor.minimap.enabled": true,
+        "editor.minimap.maxColumn": 40,
+    },
     "workbench.startupEditor": "none",
     "workbench.editor.showTabs": true,
     "workbench.activityBar.visible": false,
@@ -53,5 +63,6 @@
     },
 
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "line"
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 }
