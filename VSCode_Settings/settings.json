@@ -59,7 +59,7 @@
     "vim.normalModeKeyBindings": [
         {
             "before":["enter"],
-            "after": ["o", ".", "<Esc>", "x"]
+            "after": ["o", "<Esc>"]
         }
     ],
     "vim.handleKeys": {
