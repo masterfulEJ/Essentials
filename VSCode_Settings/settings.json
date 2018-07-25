@@ -5,14 +5,15 @@
     "window.menuBarVisibility": "toggle",
 
     "editor.fontFamily":
-    "'Source Code Pro', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
+    "Fira Code",
+    "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.fontSize": 14,
     "window.zoomLevel": 1,
     "editor.rulers": [80],
     "editor.codeLens": false,
     "editor.formatOnPaste": true,
-    "editor.parameterHints": true,
+    "editor.parameterHints": false,
     "editor.renderIndentGuides": true,
     "editor.renderWhitespace": "boundary",
 
@@ -24,9 +25,10 @@
         "editor.minimap.enabled": true,
         "editor.minimap.maxColumn": 40,
     },
+
     "workbench.startupEditor": "none",
     "workbench.editor.showTabs": true,
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "vscode-great-icons",
     "workbench.colorTheme": "Atom One Dark",
@@ -37,13 +39,12 @@
         "statusBar.noFolderBackground": "#B48EAD",
         "statusBar.debuggingBackground": "#B48EAD"
     },
-
     "vim.useSystemClipboard": true,
     "vim.statusBarColorControl": true,
     "vim.statusBarColors": {
         "normal": ["#8FBCBB", "#434C5E"],
         "insert": "#BF616A",
-        "visual": "#B48EAD",
+        "visual": "#03396c",
         "visualline": "#B48EAD",
         "visualblock": "#A3BE8C",
         "replace": "#D08770"
@@ -53,13 +54,15 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before":["q"],
-            "commands": [":nohl"]
-        }
+            "commands": [
+                ":nohl"
+            ]
+        },
     ],
     "vim.normalModeKeyBindings": [
         {
             "before":["enter"],
-            "after": ["o", "<Esc>"]
+            "after": ["o","<Esc>"]
         }
     ],
     "vim.handleKeys": {

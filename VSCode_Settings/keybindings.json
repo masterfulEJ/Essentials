@@ -58,4 +58,8 @@
     "key": "ctrl+e ctrl+e",
     "command": "workbench.action.focusActiveEditorGroup"
 },
+{
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.terminal.kill"
+}
 ]
