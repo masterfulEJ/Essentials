@@ -1,0 +1,21 @@
+{
+	"auto_indent": true,
+	"color_scheme": "Packages/One Dark Material - Theme/schemes/OneDark.tmTheme",
+	"font_face": "Fira Mono",
+	"font_options":
+	[
+		"no_italic"
+	],
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"preview_on_click": false,
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 4,
+	"theme": "OneDarkMaterial.sublime-theme"
+}
