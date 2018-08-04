@@ -1,0 +1,16 @@
+[2018-07-25 09:00:30.626] [sharedprocess] [info] main {"machineId":"ea7d9225b90678ba5130162aaadde2982bec0f6ce7ce1a7fc3cbb6d071aaee49"}
+[2018-07-25 09:00:30.691] [sharedprocess] [info] Scanned user extensions: 6
+[2018-07-25 09:00:30.704] [sharedprocess] [info] Scanned user extensions: 6
+[2018-07-25 09:00:30.712] [sharedprocess] [info] Scanned user extensions: 6
+[2018-07-25 09:00:30.763] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-25 09:00:30.765] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-25 09:00:31.320] [sharedprocess] [info] Scanned user extensions: 6
+[2018-07-25 09:00:32.782] [sharedprocess] [info] Installing extension: gc-excelviewer
+[2018-07-25 09:00:32.788] [sharedprocess] [info] Scanned user extensions: 6
+[2018-07-25 09:00:39.351] [sharedprocess] [info] Downloaded extension: gc-excelviewer
+[2018-07-25 09:00:42.581] [sharedprocess] [info] Extracted extension to /home/eunjaejang/.vscode/extensions/.grapecity.gc-excelviewer-2.1.25: grapecity.gc-excelviewer-2.1.25
+[2018-07-25 09:00:42.584] [sharedprocess] [info] Renamed to /home/eunjaejang/.vscode/extensions/grapecity.gc-excelviewer-2.1.25
+[2018-07-25 09:00:42.584] [sharedprocess] [info] Installation completed. grapecity.gc-excelviewer-2.1.25
+[2018-07-25 09:00:42.594] [sharedprocess] [info] Extensions installed successfully: grapecity.gc-excelviewer
+[2018-07-25 09:00:42.710] [sharedprocess] [info] Scanned user extensions: 6
+[2018-07-25 09:00:42.726] [sharedprocess] [info] Scanned system extensions: 70

@@ -1,0 +1,16 @@
+[2018-07-24 18:47:57.949] [exthost3] [info] extension host started
+[2018-07-24 18:47:57.967] [exthost3] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-24 18:47:57.967] [exthost3] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-07-24 18:47:58.014] [exthost3] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-24 18:47:58.014] [exthost3] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-07-24 18:47:58.150] [exthost3] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-24 18:47:58.150] [exthost3] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-07-24 18:47:58.159] [exthost3] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-07-24 18:47:58.159] [exthost3] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-07-24 18:47:58.163] [exthost3] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-07-24 18:47:58.164] [exthost3] [info] ExtensionService#loadCommonJSModule /home/eunjaejang/.vscode/extensions/vscodevim.vim-0.15.6/out/extension
+[2018-07-24 18:47:58.476] [exthost3] [info] eager extensions activated
+[2018-07-24 18:47:58.563] [exthost3] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-07-24 18:47:58.563] [exthost3] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-07-24 18:47:58.576] [exthost3] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-07-24 18:47:58.576] [exthost3] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/out/jsonMain

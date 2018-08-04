@@ -1,0 +1,29 @@
+[2018-07-25 21:32:23.380] [renderer1] [info] standard startup {"version":"1.25.1","ellapsed":1376,"timers":{"ellapsedExtensions":565,"ellapsedExtensionsReady":1592,"ellapsedRequire":428,"ellapsedEditorRestore":258,"ellapsedViewletRestore":24,"ellapsedWorkbench":354,"ellapsedWindowLoadToRequire":228,"ellapsedTimersToTimersComputed":20,"ellapsedNlsGeneration":0,"ellapsedAppReady":66,"ellapsedWindowLoad":289},"platform":"linux","release":"4.15.0-29-generic","arch":"x64","totalmem":8275484672,"freemem":750587904,"meminfo":{"workingSetSize":278840,"peakWorkingSetSize":279716,"privateBytes":202140,"sharedBytes":76720},"cpus":{"count":4,"speed":1086,"model":"Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz"},"loadavg":[0.7001953125,0.64599609375,0.45263671875],"initialStartup":true,"isVMLikelyhood":0,"hasAccessibilitySupport":false,"emptyWorkbench":false,"common.machineId":"ea7d9225b90678ba5130162aaadde2982bec0f6ce7ce1a7fc3cbb6d071aaee49","sessionID":"5555a290-d045-40dd-8205-fbb4d95dd1ec1532521939992","commitHash":"1dfc5e557209371715f655691b1235b6b26a06be","common.platformVersion":"4.15.0","common.platform":"Linux","common.nodePlatform":"linux","common.nodeArch":"x64","timestamp":"2018-07-25T12:32:23.378Z","common.timesincesessionstart":3386,"common.sequence":21,"common.version.shell":"1.7.12","common.version.renderer":"58.0.3029.110","common.firstSessionDate":"Tue, 24 Jul 2018 01:49:30 GMT","common.lastSessionDate":"Wed, 25 Jul 2018 12:31:26 GMT","common.isNewSession":"0","common.instanceId":"1fc54930-e198-454f-8ee3-b21a8400f9de"}
+[2018-07-25 21:33:04.586] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at new t (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3979:379)
+    at e.wrapError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3983:262)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3987:568
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:807)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:154:85)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:896)
+    at n.Class.derive._creator._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:337)
+    at n.Class.derive._creator.then (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:157:366)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:153:184)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:896)
+    at n.Class.derive._creator._setCompleteValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:590)
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:787)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:154:85)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:896)
+    at n.Class.derive._creator._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:337)
+    at n.Class.define.cancel.then (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:157:366)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:153:184)
+    at n.Class.derive._creator._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:896)
+    at n.Class.derive._creator._setCompleteValue (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:590)
+    at Object.g [as _notify] (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:150:787)
+    at Object.enter (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:154:85)
+    at n.Class.derive._oncancel._run (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:896)
+    at n.Class.derive._oncancel._completed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:155:337)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:199:98
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:287:124
+    at /usr/share/code/resources/app/node_modules.asar/graceful-fs/polyfills.js:287:18
+    at FSReqWrap.oncomplete (original-fs.js:114:15)

@@ -1,0 +1,27 @@
+[2018-08-04 14:34:12.019] [sharedprocess] [info] main {"machineId":"ea7d9225b90678ba5130162aaadde2982bec0f6ce7ce1a7fc3cbb6d071aaee49"}
+[2018-08-04 14:34:12.099] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:12.116] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:12.120] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:12.137] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:12.271] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-04 14:34:12.273] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-04 14:34:12.733] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:14.639] [sharedprocess] [info] Installing extension: vscode-great-icons
+[2018-08-04 14:34:14.640] [sharedprocess] [info] Installing extension: Material-theme
+[2018-08-04 14:34:14.652] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:14.664] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:15.919] [sharedprocess] [info] Downloaded extension: Material-theme
+[2018-08-04 14:34:15.951] [sharedprocess] [info] Extracted extension to /home/eunjaejang/.vscode/extensions/.zhuangtongfa.material-theme-2.15.3: zhuangtongfa.material-theme-2.15.3
+[2018-08-04 14:34:15.952] [sharedprocess] [info] Renamed to /home/eunjaejang/.vscode/extensions/zhuangtongfa.material-theme-2.15.3
+[2018-08-04 14:34:15.952] [sharedprocess] [info] Installation completed. zhuangtongfa.material-theme-2.15.3
+[2018-08-04 14:34:15.959] [sharedprocess] [info] Extensions installed successfully: zhuangtongfa.material-theme
+[2018-08-04 14:34:16.076] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:16.108] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-04 14:34:16.121] [sharedprocess] [info] Downloaded extension: vscode-great-icons
+[2018-08-04 14:34:16.366] [sharedprocess] [info] Extracted extension to /home/eunjaejang/.vscode/extensions/.emmanuelbeziat.vscode-great-icons-2.1.39: emmanuelbeziat.vscode-great-icons-2.1.39
+[2018-08-04 14:34:16.366] [sharedprocess] [info] Renamed to /home/eunjaejang/.vscode/extensions/emmanuelbeziat.vscode-great-icons-2.1.39
+[2018-08-04 14:34:16.366] [sharedprocess] [info] Installation completed. emmanuelbeziat.vscode-great-icons-2.1.39
+[2018-08-04 14:34:16.370] [sharedprocess] [info] Extensions installed successfully: emmanuelbeziat.vscode-great-icons
+[2018-08-04 14:34:16.481] [sharedprocess] [info] Scanned user extensions: 7
+[2018-08-04 14:34:16.494] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-04 14:34:52.031] [sharedprocess] [info] Starting to clean up unused language packs.

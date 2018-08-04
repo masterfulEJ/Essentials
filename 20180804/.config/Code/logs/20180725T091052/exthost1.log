@@ -1,0 +1,20 @@
+[2018-07-25 09:10:53.482] [exthost1] [info] extension host started
+[2018-07-25 09:10:53.503] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-07-25 09:10:53.504] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-07-25 09:10:53.550] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-07-25 09:10:53.550] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-07-25 09:10:53.683] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-07-25 09:10:53.683] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-07-25 09:10:53.692] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-07-25 09:10:53.692] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-07-25 09:10:53.696] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-07-25 09:10:53.696] [exthost1] [info] ExtensionService#loadCommonJSModule /home/eunjaejang/.vscode/extensions/vscodevim.vim-0.15.6/out/extension
+[2018-07-25 09:10:54.137] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-07-25 09:10:54.137] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-07-25 09:10:54.148] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-07-25 09:10:54.148] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/out/jsonMain
+[2018-07-25 09:10:54.264] [exthost1] [info] eager extensions activated
+[2018-07-25 09:10:56.126] [exthost1] [info] ExtensionService#_doActivateExtension GrapeCity.gc-excelviewer {"startup":false,"activationEvent":"onLanguage:r"}
+[2018-07-25 09:10:56.126] [exthost1] [info] ExtensionService#loadCommonJSModule /home/eunjaejang/.vscode/extensions/grapecity.gc-excelviewer-2.1.25/out/src/extension
+[2018-07-25 09:10:56.479] [exthost1] [info] ExtensionService#_doActivateExtension Ikuyadeu.r {"startup":false,"activationEvent":"onLanguage:r"}
+[2018-07-25 09:10:56.479] [exthost1] [info] ExtensionService#loadCommonJSModule /home/eunjaejang/.vscode/extensions/ikuyadeu.r-0.6.0/out/src/extension
