@@ -25,7 +25,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 set encoding=utf-8
 " Automatic reloading of .vimrc
-autocmd! bufwritepost .vimrc source %
+autocmd! BufWritePost .vimrc
+        \ source % | AirlineRefresh
 " gets rid of extra space
 autocmd BufWritePre * %s/\s\+$//e
 " make backspace behave like normal again
@@ -41,10 +42,12 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-" Quicksave command
-noremap <C-Z> :update<CR>
-vnoremap <C-Z> <C-C>:update<CR>
-inoremap <C-Z> <C-O>:update<CR>
+" Quicksave command (no need anyway)
+" noremap <C-Z> :update<CR>
+" vnoremap <C-Z> <C-C>:update<CR>
+" inoremap <C-Z> <C-O>:update<CR>
+" Close Preview Window
+nnoremap <C-Z> <C-W><C-Z>
 " easier moving between tabs
 map <C-PageUp> <esc>:tabprevious<CR>
 map <C-PageDown> <esc>:tabnext<CR>
@@ -133,6 +136,7 @@ let g:ctrlp_max_height = 30
 set wildignore+=*.pyc
 set wildignore+=*_build/*
 set wildignore+=*/coverage/*
+set wildignore+=*/__pycache__/*
 
 "vim-airline
 let g:airline_powerline_fonts = 1
@@ -157,6 +161,7 @@ inoremap <silent><C-j> <C-R>=OmniPopup('j')<CR>
 inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 
 " YouCompleteMe Setting
+" let g:ycm_autoclose_preview_window_after_insertion=1
 let g:ycm_autoclose_preview_window_after_completion=1
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
@@ -180,7 +185,7 @@ set splitbelow
 set splitright
 " load up the nerd tree
 map <C-n> <plug>NERDTreeTabsToggle<CR>
-
+let NERDTreeIgnore = ['\.pyc$', '^__pycache__$']
 " move nerdtree to the right
 let g:NERDTreeWinPos = "right"
 " " move to the first buffer
