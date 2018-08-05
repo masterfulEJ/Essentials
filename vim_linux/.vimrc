@@ -53,7 +53,7 @@ map <C-a> <esc>ggVG
 map <M-Down> <esc>ddp
 map <M-Up> <esc>ddkkp
 " add new line
-nmap <CR> o<Esc>
+nmap <CR> <Esc>o<Esc>
 " easier moving of code blocks
 " vnoremap < <gv " better indentation
 " vnoremap > >gv " better indentation
