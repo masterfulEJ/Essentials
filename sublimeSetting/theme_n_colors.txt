@@ -1,9 +1,0 @@
-Themes:
-    ayu
-    OneDark Material
-
-Packages:
-    BracketHighlighter
-    SidebarEnhancements
-    PrettyYAML
-    
