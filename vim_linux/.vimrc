@@ -1,5 +1,5 @@
 " Vim by EunjaeJang
-
+set noerrorbells visualbell
 set nocompatible              " required
 set nocp                      " same as above
 filetype off                  " required
