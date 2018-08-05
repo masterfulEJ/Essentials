@@ -1,9 +1,4 @@
 # Essentials
 
-#### Speed-up Git-Bash in Windows:
+> This is my setting for Ubuntu and Windows
 
-```bash
-$ git config --global core.preloadindex true
-$ git config --global core.fscache true
-$ git config --global gc.auto 256
-```
