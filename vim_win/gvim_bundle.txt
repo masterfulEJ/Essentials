@@ -1,0 +1,8 @@
+ctrlp.vim
+indentpython.vim
+nerdtree
+onedark.vim
+python-mode (master branch)
+SimpylFold
+vim-airline
+vim-sensible
