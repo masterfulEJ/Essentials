@@ -19,6 +19,7 @@ Plugin 'joshdick/onedark.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
+Plugin 'bitc/vim-bad-whitespace'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -114,7 +115,8 @@ au BufNewFile,BufRead *.js, *.html, *.css
     \ set softtabstop=2 |
     \ set shiftwidth=2
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
-
+" Shortcut to rapidly toggle `set list`
+nmap <leader>l :set list!<CR>
 " Make search case insensitive
 set hlsearch
 set incsearch
@@ -173,7 +175,9 @@ set wildmenu
 set wildmode=list:longest,full
 
 set clipboard=unnamedplus
-
+" defaults when splits are called
+set splitbelow
+set splitright
 " load up the nerd tree
 map <C-n> <plug>NERDTreeTabsToggle<CR>
 
