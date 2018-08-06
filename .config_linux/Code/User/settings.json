@@ -40,6 +40,8 @@
         "statusBar.debuggingBackground": "#8FBCBB",
         "statusBar.foreground": "#434C5E"
     },
+    "window.restoreWindows": "none",
+
     "vim.useSystemClipboard": true,
     "vim.statusBarColorControl": true,
     "vim.statusBarColors": {
