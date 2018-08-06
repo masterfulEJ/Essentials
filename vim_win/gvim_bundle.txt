@@ -5,4 +5,7 @@ onedark.vim
 python-mode (master branch)
 SimpylFold
 vim-airline
+vim-bad-whitespace
+vim-fugitive
+vim-nerdtree-tabs
 vim-sensible
