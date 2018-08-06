@@ -88,7 +88,6 @@ set tw=79 " width of document (used by gd)
 set wrap linebreak nolist
 set fo-=t " don't automatically wrap text when typing
 set colorcolumn=80
-highlight ColorColumn ctermbg=233
 
 " easier formatting of paragraphs
 vmap Q gq
