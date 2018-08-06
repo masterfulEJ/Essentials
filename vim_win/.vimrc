@@ -157,9 +157,10 @@ EOF
 " vim.command("let g:pymode_rope = " + is_git_repo())
 
 " python-mode (if it slows down!!)
-let g:pymode_rope_lookup_project = 0
-let g:pymode_rope = 0
-let g:pymode_rope_autoimport = 0
+" let g:pymode_rope_lookup_project = 0
+" let g:pymode_rope = 0
+" let g:pymode_rope_autoimport = 0
+" let g:pymode_rope_completion = 0
 let g:pymode_rope_complete_on_dot = 0
 
 " load up the nerd tree
