@@ -47,3 +47,8 @@ sudo checkinstall
 ```bash
 $ dpkg -r vim
 ```
+### Disable Upgrade:
+
+```bash
+$ sudo apt-mark hold vim
+```
