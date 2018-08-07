@@ -196,3 +196,10 @@ set pastetoggle=<F2>
 
 " python-mode
 let g:pymode_python = 'python3'
+
+if exists("+lines")
+  set lines=100
+endif
+if exists("+columns")
+  set columns=170
+endif
