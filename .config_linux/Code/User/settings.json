@@ -1,6 +1,12 @@
 {
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.ipynb_checkpoints": true,
+        "**/.vscode": true,
+        "**/.ropeproject": true,
+    },
 
     "window.menuBarVisibility": "toggle",
 
