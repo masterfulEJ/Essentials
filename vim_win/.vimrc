@@ -26,18 +26,18 @@ let mapleader = ","
 " Removes highlight of your last search
 noremap q :nohl<CR>
 vnoremap q :nohl<CR>
-inoremap q :nohl<CR>
 "split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 " Quicksave command
-" noremap <C-Z> :update<CR>
-" vnoremap <C-Z> <C-C>:update<CR>
-" inoremap <C-Z> <C-O>:update<CR>
-" Close Preview Window
+noremap <leader>s :update<CR>
+vnoremap <leader>s <C-C>:update<CR>
+inoremap <leader>s <C-O>:update<CR>
+" Close Preview & Quickfix Window
 nnoremap <C-Z> <C-W><C-Z>
+nnoremap <C-X> :cclose<CR>
 " easier moving between tabs
 map <C-PageUp> <esc>:tabprevious<CR>
 map <C-PageDown> <esc>:tabnext<CR>

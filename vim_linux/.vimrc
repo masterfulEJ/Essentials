@@ -7,20 +7,20 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-Plugin 'python-mode/python-mode'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'vim-airline/vim-airline'
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-sensible'
-Plugin 'joshdick/onedark.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-surround'
-Plugin 'tmhedberg/SimpylFold'
-Plugin 'vim-scripts/indentpython.vim'
 Plugin 'bitc/vim-bad-whitespace'
+Plugin 'gmarik/Vundle.vim'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'joshdick/onedark.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'python-mode/python-mode'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-sensible'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-scripts/indentpython.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -37,18 +37,18 @@ let mapleader = ","
 " Removes highlight of your last search :: Bind nohl
 noremap q :nohl<CR>
 vnoremap q :nohl<CR>
-inoremap q :nohl<CR>
-"split navigations
+" split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-" Quicksave command (no need anyway)
-" noremap <C-Z> :update<CR>
-" vnoremap <C-Z> <C-C>:update<CR>
-" inoremap <C-Z> <C-O>:update<CR>
-" Close Preview Window
+" Quicksave command
+noremap <leader>s :update<CR>
+vnoremap <leader>s <C-C>:update<CR>
+inoremap <leader>s <C-O>:update<CR>
+" Close Preview & Quickfix Window
 nnoremap <C-Z> <C-W><C-Z>
+nnoremap <C-X> :cclose<CR>
 " easier moving between tabs
 map <C-PageUp> <esc>:tabprevious<CR>
 map <C-PageDown> <esc>:tabnext<CR>
