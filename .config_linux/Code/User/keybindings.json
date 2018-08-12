@@ -15,7 +15,7 @@
 	},
 	{
 	    "key": "ctrl+n",
-	    "command": "workbench.action.toggleSidebarVisibility" 
+	    "command": "workbench.action.toggleSidebarVisibility"
 	},
 	{
 	    "key": "ctrl+alt+l",
@@ -45,7 +45,7 @@
 	    "command": "workbench.action.terminal.focusPrevious",
 	    "when": "terminalFocus"
 	},
-	{ 
+	{
 	    "key": "ctrl+enter",
 	    "command": "editor.action.insertLineAfter",
 	    "when": "editorTextFocus && !editorReadonly"
