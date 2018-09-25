@@ -121,12 +121,10 @@ fi
 # POWERLINE_BASH_CONTINUATION=1
 # POWERLINE_BASH_SELECT=1
 # . /home/eunjaejang/.local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
-
-
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[0;31m\]\$(parse_git_branch) \[\033[00m\] \n\$ "
+export PS1="\n${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[0;31m\]\$(parse_git_branch) \[\033[00m\] \n\$ "
 
 # added by Anaconda3 installer
 export PATH="/home/eunjaejang/anaconda3/bin:$PATH"
