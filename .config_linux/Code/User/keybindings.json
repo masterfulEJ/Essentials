@@ -79,11 +79,33 @@
 	    "command": "workbench.action.navigateDown"
 	},
 	{
+	    "key": "ctrl+shift+f",
+	    "command": "editor.foldAll",
+	    "when": "editorTextFocus"
+	},
+	{
+	    "key": "ctrl+shift+v",
+	    // "key": "z o",
+	    "command": "editor.foldRecursively",
+	    "when": "editorTextFocus"
+	},
+	{
+	    "key": "ctrl+shift+u",
+	    "command": "editor.unfoldAll",
+	    "when": "editorTextFocus"
+	},
+	{
+	    "key": "ctrl+shift+j",
+	    // "key": "z c",
+	    "command": "editor.unfoldRecursively",
+	    "when": "editorTextFocus"
+	},
+	{
 	    "key": "ctrl+h ctrl+h",
 	    "command": "editor.action.startFindReplaceAction"
 	},
 	{
 	    "key": "ctrl+h",
 	    "command": "-editor.action.startFindReplaceAction"
-	}
+	},
 ]
