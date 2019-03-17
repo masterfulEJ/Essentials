@@ -1,0 +1,16 @@
+~/anaconda3/lib/python3.7/config-3.7m-darwin
+
+$ git clone git://github.com/macvim-dev/macvim.git
+
+$ cd macvim/src
+$ sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+$ ./configure --with-features=huge \
+            --enable-rubyinterp \
+            --enable-python3interp=yes \
+            --with-python3-config-dir=~/anaconda3/lib/python3.7/config-3.7m-darwin/python-config \
+            --enable-perlinterp \
+            --enable-cscope
+
+$ Make
+
+$ open MacVim/build/Release/MacVim.app
