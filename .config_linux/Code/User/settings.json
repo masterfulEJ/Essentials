@@ -79,6 +79,17 @@
                 ":nohl"
             ]
         },
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        }
     ],
     "vim.normalModeKeyBindings": [
         {
