@@ -1,0 +1,55 @@
+{
+	"always_show_minimap_viewpoint": true,
+	"bold_folder_labels": true,
+	"close_windows_when_empty": false,
+	// "color_scheme": "Packages/Theme - One Dark/One Dark.tmTheme",
+	"copy_with_empty_selection": false,
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+    "file_exclude_patterns":
+    [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.sublime-workspace",
+        "*.ipynb_checkpoints"
+    ],
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"no_italic"
+	],
+	"font_size": 11,
+    "hot_exit": false,
+	"ignored_packages":
+	[
+        "Python",
+		"Vintage"
+	],
+    "preview_on_click": false,
+    "remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
+	"sidebar_default": false,
+	// "theme": "One Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_spaces_on_save": true,
+	"word_wrap": true
+}

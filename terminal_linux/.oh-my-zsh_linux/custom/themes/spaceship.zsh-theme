@@ -1,1 +1,1 @@
-/home/eunjaejang/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme
+D:/home/eunjaejang/.oh-my-zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme
