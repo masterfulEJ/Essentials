@@ -11,4 +11,7 @@
 	{ "keys": ["ctrl+alt+7"], "command": "move_to_group", "args": { "group": 6 } },
 	{ "keys": ["ctrl+alt+8"], "command": "move_to_group", "args": { "group": 7 } },
 	{ "keys": ["ctrl+alt+9"], "command": "move_to_group", "args": { "group": 8 } },
+
+	{ "keys": ["ctrl+shift+k"], "command": "fold" },
+	{ "keys": ["ctrl+shift+j"], "command": "unfold" },
 ]
