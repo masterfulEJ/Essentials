@@ -6,6 +6,12 @@
 	"copy_with_empty_selection": false,
 	"draw_minimap_border": true,
 	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		"__pycache__",
+		".vscode",
+		".ipynb_checkpoints"
+	],
 	"file_exclude_patterns":
 	[
 		"*.pyc",
