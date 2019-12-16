@@ -1,0 +1,89 @@
+{
+    "snippets" : [
+        {
+            "name" : "basic-imports",
+            "code" : [
+                "%matplotlib inline",
+                "import matplotlib.pyplot as plt",
+                "import numpy as np",
+                "import pandas as pd",
+                "import seaborn as sns"
+            ]
+        },
+        {
+            "name" : "autoreload",
+            "code" : [
+                "%load_ext autoreload",
+                "%autoreload 2"
+            ]
+        },
+        {
+            "name" : "lookup_greeks",
+            "code" : [
+                "from unicodedata import *",
+                "char1 = lookup('GREEK SMALL LETTER ALPHA')",
+                "print(char1.encode('utf-8'))",
+                "# α",
+                "",
+                "char2 = lookup('RIGHTWARDS ARROW')",
+                "print(char2.encode('utf-8'))",
+                "# →"
+            ]
+        },
+        {
+            "name": "unicode_greeks",
+            "code": [
+                "greek_alphabet = {",
+                "    u'Α': 'Alpha',",
+                "    u'Β': 'Beta',",
+                "    u'Γ': 'Gamma',",
+                "    u'Δ': 'Delta',",
+                "    u'Ε': 'Epsilon',",
+                "    u'Ζ': 'Zeta',",
+                "    u'Η': 'Eta',",
+                "    u'Θ': 'Theta',",
+                "    u'Ι': 'Iota',",
+                "    u'Κ': 'Kappa',",
+                "    u'Λ': 'Lamda',",
+                "    u'Μ': 'Mu',",
+                "    u'Ν': 'Nu',",
+                "    u'Ξ': 'Xi',",
+                "    u'Ο': 'Omicron',",
+                "    u'Π': 'Pi',",
+                "    u'Ρ': 'Rho',",
+                "    u'Σ': 'Sigma',",
+                "    u'Τ': 'Tau',",
+                "    u'Υ': 'Upsilon',",
+                "    u'Φ': 'Phi',",
+                "    u'Χ': 'Chi',",
+                "    u'Ψ': 'Psi',",
+                "    u'Ω': 'Omega',",
+                "    u'α': 'alpha',",
+                "    u'β': 'beta',",
+                "    u'γ': 'gamma',",
+                "    u'δ': 'delta',",
+                "    u'ε': 'epsilon',",
+                "    u'ζ': 'zeta',",
+                "    u'η': 'eta',",
+                "    u'θ': 'theta',",
+                "    u'ι': 'iota',",
+                "    u'κ': 'kappa',",
+                "    u'λ': 'lamda',",
+                "    u'μ': 'mu',",
+                "    u'ν': 'nu',",
+                "    u'ξ': 'xi',",
+                "    u'ο': 'omicron',",
+                "    u'π': 'pi',",
+                "    u'ρ': 'rho',",
+                "    u'σ': 'sigma',",
+                "    u'τ': 'tau',",
+                "    u'υ': 'upsilon',",
+                "    u'φ': 'phi',",
+                "    u'χ': 'chi',",
+                "    u'ψ': 'psi',",
+                "    u'ω': 'omega',",
+                "}"
+            ]
+        }
+    ]
+}
