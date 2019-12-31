@@ -62,4 +62,12 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.joinLines"
+    },
 ]
