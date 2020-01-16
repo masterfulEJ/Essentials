@@ -84,6 +84,19 @@
                 "    u'ω': 'omega',",
                 "}"
             ]
+        },
+        {
+            "name" : "change_work_directory",
+            "code" : [
+                "import sys",
+                "import os",
+                "try:",
+                "    default_path = os.path.join(os.path.dirname('__file__'), '..')",
+                "    os.chdir(default_path)",
+                "    sys.path.append(default_path)",
+                "except OSError:",
+                "    print(\"Can't change working directory!\")"
+            ]
         }
     ]
 }
