@@ -8,14 +8,12 @@
         "**/.ropeproject": true,
     },
 
-    "window.menuBarVisibility": "toggle",
-
     "editor.fontFamily":
     "Fira Code",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.fontSize": 14,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": -1,
     "editor.rulers": [80],
     "editor.codeLens": false,
     "editor.formatOnPaste": true,
@@ -38,7 +36,14 @@
     },
     "[html]": {
         "editor.wordWrap": "on",
-        "editor.wordWrapColumn": 100,
+        "editor.wordWrapColumn": 90,
+        "editor.tabSize": 2,
+        "editor.minimap.enabled": true,
+        "editor.minimap.maxColumn": 40,
+    },
+    "[javascript]": {
+        "editor.wordWrap": "on",
+        "editor.wordWrapColumn": 90,
         "editor.tabSize": 2,
         "editor.minimap.enabled": true,
         "editor.minimap.maxColumn": 40,
@@ -49,27 +54,18 @@
     "workbench.activityBar.visible": true,
     "workbench.sideBar.location": "right",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Horizon",
     "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
-        "statusBar.background": "#8FBCBB",
-        "statusBar.noFolderBackground": "#8FBCBB",
-        "statusBar.debuggingBackground": "#8FBCBB",
-        "statusBar.foreground": "#434C5E"
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
     },
     "window.restoreWindows": "none",
 
     "vim.useSystemClipboard": true,
+    "vim.leader": ",",
     "vim.statusBarColorControl": true,
-    "vim.statusBarColors": {
-        "normal": ["#8FBCBB", "#434C5E"],
-        "insert": "#BF616A",
-        "visual": "#03396c",
-        "visualline": "#B48EAD",
-        "visualblock": "#A3BE8C",
-        "replace": "#D08770"
-    },
     "vim.ignorecase": false,
     "vim.hlsearch": true,
     "vim.normalModeKeyBindingsNonRecursive": [
@@ -77,16 +73,11 @@
             "before":["q"],
             "commands": [":nohl"]
         },
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
         {
-            "before": [
-                "p",
-            ],
-            "after": [
-                "p",
-                "g",
-                "v",
-                "y"
-            ]
+            "before":["<leader>", "p"],
+            "after": ["\"", "0", "p"]
         }
     ],
     "vim.normalModeKeyBindings": [
@@ -96,11 +87,11 @@
         }
     ],
     "vim.handleKeys": {
-        "<C-f>": false,
-        "<C-sh-h>": false,
     },
-
     "python.linting.lintOnSave": false,
     "terminal.integrated.cursorBlinking": true,
     "liveServer.settings.donotShowInfoMsg": true,
+    "python.pythonPath": "/anaconda3/bin/python",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Monokai++"
 }
