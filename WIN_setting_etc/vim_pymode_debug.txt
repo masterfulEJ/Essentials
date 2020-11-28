@@ -1,4 +1,0 @@
-# python-mode error for importing local packages.
-# change:
-C:\Users\KIC\vimfiles\bundle\python-mode\pymode\libs\configparser.py
-> C:\Users\KIC\vimfiles\bundle\python-mode\pymode\libs\configparser_pymode.py
